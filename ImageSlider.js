@@ -170,11 +170,11 @@ class ImageSlider extends Component<PropsType, StateType> {
     this._setInterval();
   };
 
-  componentDidMount() {
+  UNSAFE_componentDidMount() {
     this._setInterval();
   }
 
-  componentWillUnmount() {
+  UNSAFE_componentWillUnmount() {
     this._clearInterval();
   }
 
